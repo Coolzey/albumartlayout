@@ -1,0 +1,74 @@
+body {
+  background: #500c0c;
+  margin: 0;
+  font-family: poppins;
+  height: 100vh;
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+}
+
+section .name {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+section .title {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+.photo {
+  height: 500px;
+  width: 500px;
+}
+
+.musicbar {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.duration {
+  background-color: #c9880f;
+  width: 100%;
+}
+
+.time {
+  background-color: white;
+  width: 100px;
+  right: 0;
+}
+
+.duration, .time {
+  height: 100%;
+  position: absolute;
+}
+
+.duration-box {
+  height: 3px;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
